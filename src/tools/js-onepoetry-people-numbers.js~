@@ -5,7 +5,7 @@ if('WebSocket' in window) {
 }else {
     alert("浏览器版本太低，不支持游戏，请升级浏览器后进行游戏！");
 }
-//
+
 function setMessageInnerHTML(innerHTML){
     document.getElementById("userNumber").innerHTML+=innerHTML+"</br>";
 }
